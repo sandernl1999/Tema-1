@@ -1,69 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tema 1</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Tema-1</title>
+    <link rel="stylesheet" href="div-nav.css">
+    <link rel="stylesheet" href="hjem.css">
+    <link rel="stylesheet" href="statsrad.css">
+    <link rel="stylesheet" href="politikk.css">
+    <link rel="stylesheet" href="historie.css">
+    <link rel="stylesheet" href="medlem.css">
+    <link rel="stylesheet" href="footer.css">
+
+
 </head>
 <body>
 
     <header>
 
+
+        <div class="container">
         <nav>
 
-            <img src="./høyr.png" alt="logo" class="logo">
+          <a href="index.html"><img src="./images/h-logo.png" alt="logo" class="logo"></a>
 
-           <div>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#Hjem" class="nav-link">Hjem</a></li>
+            <li class="nav-item"><a href="#Statsråder" class="nav-link">Statsråder</a></li>
+            <li class="nav-item"><a href="#Politikk" class="nav-link">Politikk</a></li>
+            <li class="nav-item"><a href="#Historie" class="nav-link">Historie</a></li>
+            <li class="nav-item"><a href="#Medlem" class="nav-link">Medlem</a></li>
 
-                <ul>
-            <li><a href="#Hjem">Hjem</a></li>
-            <li><a href="#Statsråder">Statsråder</a></li>
-                <li><a href="#Politikk">Politikk</a></li>
-                   <li><a href="#Historie">Historie</a></li>
-                   <li><a href="#Medlem">Medlem</a></li>
-                   <li><a href="#Kontakt">Kontakt</a></li>
-               </ul>
+           <div class="active"></div>
+            </ul>
 
-           </div>
+            </nav>
+            </div>
 
-        </nav>
     </header>
 
     <main>
 
-        <section id="Hjem">
-<h1>"Vi tror på Norge, fordi vi tror på deg"</h1>
-<p> - Erna Solberg</p>
+<section id="Hjem">
 
-<h2>Bli kjent med Erna:</h2>
+<a href="https://hoyre.no/aktuelt/nyheter/2019/vi-tror-pa-norge-fordi-vi-tror-pa-deg/" target="_blank"><h1>"Vi tror på Norge, fordi vi tror på deg"</h1></a>
+<a href="https://hoyre.no/aktuelt/nyheter/2019/vi-tror-pa-norge-fordi-vi-tror-pa-deg/" target="_blank"><p>- Erna Solberg</p></a>
 
-<a href="https://erna.no/">
 
-<video id="video" width="320" height="240" control autoplay loop>
+<a href="https://erna.no/" style="text-decoration: none;">
 
-    <source src="./erna VIDEO.mp4" type="video/mp4"> 
+   
+<div>
 
-    </a>
+<video id="video" width="320" height="240" control muted autoplay loop>
+
+    <source src="./images/erna VIDEO.mp4" type="video/mp4">  
+
 
 </video>
 
+<h3>Bli kjent med Erna</h3>
+</div>
+</a>
+
+<a href="https://hoyre.no/blimedlem/" style="text-decoration: none;">
+
+<div>
+
+<video id="isaksen" width="320" height="240" control muted autoplay loop>
+
+    
+    <source src="./images/torfilm.mp4">
+   
+</video>   
+<h4>Bli medlem</h4>
+</div>
+</a>
+
+
+
 </section>
     
-        <section id="Statsråder"></section>
+        <section id="Statsråder">
 
-        <section id="Politikk"></section>
+           <a href="https://www.regjeringen.no/no/id4/" target="_blank"><img class="regjering-logo" src="./images/log.jpg" alt=""> </a>
 
-        <section id="Historie"></section>
-        <section id="Medlem"></section>
-        <section id="Kontakt"></section>
+<div class="bilder">
+
+
+    <article class="bilde"><a href="https://snl.no/Erna_Solberg" target="_blank" style="text-decoration: none;"><h1>Erna Solberg</h1></a></article> 
+    <article class="bilde"><a href="https://snl.no/Bent_H%C3%B8ie" target="_blank" style="text-decoration: none;"><h1>Bent Høie</h1></a></article>
+    <article class="bilde"><a href="https://snl.no/Jan_Tore_Sanner" target="_blank" style="text-decoration: none;"><h1>Jan Tore Sanner</h1></a></article>
+    <article class="bilde"><a href="https://snl.no/Torbj%C3%B8rn_R%C3%B8e_Isaksen" target="_blank" style="text-decoration: none;"><h1>Torbjørn Røe Isaksen</h1></a></article>
+</div>
+
+<div class="reiser">
+
+    <article class="reise"><a href="https://snl.no/Monica_M%C3%A6land" target="_blank" style="text-decoration: none;"><h1>Monica Mæland</h1></a></article>
+    <article class="reise"><a href="https://snl.no/Frank_Bakke-Jensen" target="_blank" style="text-decoration: none;"><h1>Frank Bakke</h1></a></article>
+    <article class="reise"><a href="https://snl.no/Linda_Cathrine_Hofstad_Helleland" target="_blank" style="text-decoration: none;"><h1>Linda Helleland</h1></a></article>
+    <article class="reise"><a href="https://snl.no/Ine_Eriksen_S%C3%B8reide" target="_blank" style="text-decoration: none;"><h1>Ine Marie Søreide</h1></a></article>
+
+</div>
+
+<div class="spiser">
+
+    <article class="spise"><a href="https://snl.no/Nikolai_Astrup_-_politiker" target="_blank" style="text-decoration: none;"><h1>Nikolai Astrup</h1></a></article>
+    <article class="spise"><a href="https://snl.no/Odd_Emil_Ingebrigtsen" target="_blank" style="text-decoration: none;"><h1>Odd-Emil Ingebrigsten</h1></a></article>
+    <article class="spise"><a href="https://snl.no/Tina_Bru" target="_blank" style="text-decoration: none;"><h1>Tina Bru</h1></a></article>
+    <article class="spise"><a href="https://snl.no/Henrik_Asheim" target="_blank" style="text-decoration: none;"><h1>Henrik Asheim</h1></a></article>
+</div>
+
+</section>
+
+<section id="Politikk">
+
+    <h2>Vår politikk</h2>
+
+<div class="sjefen">
+
+<article class="sjefe"><a href="https://www.regjeringen.no/no/om-regjeringa/solberg/Regjeringen-Solberg/id753980/" target="_blank" style="text-decoration: none;"><h1>Ernas Regjering</h1></a></article>
+<article class="sjefe"><a href="https://www.regjeringen.no/no/statsbudsjett/2020/rnb2020/id2715690/" target="_blank" style="text-decoration: none;"><h1>Statsbudsjettet</h1></a></article>
+<article class="sjefe"><a href="https://hoyre.no/politikk/temaer/energi-og-miljo/gronn-okonomi/" target="_blank" style="text-decoration: none;"><h1>Bærekraft</h1></a></article>
+</div>
+
+<div class="banken">
+
+<article class="banke"><a href="https://www.norges-bank.no/aktuelt/nyheter-og-hendelser/Nyhetsmeldinger/2020/2020-09-09-dnfs/" target="_blank" style="text-decoration: none;"><h1>Finans</h1></a></article>
+<article class="banke"><a href="https://hoyre.no/politikk/temaer/kultur/" target="_blank" style="text-decoration: none;"><h1>Kultur</h1></a></article>
+<article class="banke"><a href="https://hoyre.no/politikk/temaer/skole-og-forskning/" target="_blank" style="text-decoration: none;"><h1>Utdanning</h1></a></article>
+</div>
+
+<div class="folket">
+
+<article class="folke"><a href="https://hoyre.no/politikk/temaer/helse/" target="blank_" style="text-decoration: none;"><h1>Helse</h1></a></article>
+<article class="folke"><a href="https://hoyre.no/politikk/temaer/samferdsel/" target="blank_" style="text-decoration: none;"><h1>Samferdsel</h1></a></article>
+<article class="folke"><a href="https://hoyre.no/viken/aktuelt/distriktspolitikk_som_virker/" target="blank_" style="text-decoration: none;"><h1>Distrikt</h1></a></article>
+</div>
+
+</section>
+
+
+        <section id="Historie">
+
+<h1> Partiet Høyre ble etablert i kjølvannet av den bitre striden i 1884, da Stortinget fikk den konservative regjering dømt i Riksretten.
+  Etter århundreskifte 1900 dominerte en fremtrende arbeiderbevegelse politkken i Norge med arbeidpartiet i spissen helt frem til Kåre Willoch ble statsminister i 1981. 
+Høsten 2017 vant Erna Solberg valget og ble den første statsministeren fra Høyre siden Jan P. Syse til å få regjeringsmakt, hun ble også den første kvinnelige høyrepolitikeren til å bli statsminister...
+</h1>
+
+<h4>Høyres historie</h4>
+
+<a href="https://hoyre.no/om-hoyre/partiet/hoyres-historie/" style="text-decoration: none;">
+
+  <div>
+
+    <video id="kåre-vid" width="400" height="300" control muted autoplay loop>
+    
+        <source src="./images/kåre.vid.mp4" type="video/mp4">  
+    
+        
+    </video>
+
+    <h2>Les mer om historien</h2>
+
+    </div>
+    </a> 
+    
+
+    <a href="https://www.youtube.com/watch?v=S9xDWsv11Mc" style="text-decoration: none;">
+
+   
+    <div>
+
+        <video id="reagan-vid" width="400" height="300" control muted autoplay loop>
+        
+            <source src="./images/reagan.mp4" type="video/mp4">  
+        
+            
+        </video>
+
+        <h3>Da Willoch møtte Reagan</h3>
+
+        </div>
+        </a> 
+
+
+    </section>
+
+
+
+        <section id="Medlem">
+
+            <a href="erna.no" target="_blank"><img class="erna-gif" src="./images/giphy-preview.gif" alt=""></a>
+            <a href="erna.no" target="_blank"><img class="setning" src="./images/setning.png" alt=""></a>
+
+            <div class="unger">
+
+                <article class="unge"><a href="https://hoyre.no/blimedlem/" target="_blank" style="text-decoration: none;"><h1>Bli medlem</h1></a></article>
+                <article class="unge"><a href="https://www.ungehoyre.no/" target="_blank" style="text-decoration: none;"><h1>Unge høyre</h1></a></article>
+                </div>
+                
+                <div class="høyrer">
+                
+                <article class="høyre"><a href="https://hoyre.no/om-hoyre/ledige-stillinger/" target="_blank" style="text-decoration: none;"><h1>Ledige stillinger</h1></a></article>
+                <article class="høyre"><a href="https://www.instagram.com/sandrabruflot/" target="_blank" style="text-decoration: none;"><h1>Møt Sandra</h1></a></article>
+                </div>
+
+        </section>
+
+
+        <footer>
+            <h1>Instagram</h1>
+            <h2>Facebook</h2>
+        </footer>
 
     </main>
 
-    <footer>
-        <h1>Vår kontaktinfo</h1>
-        <p>Instagram</p>
-    </footer>
+
     
 </body>
 </html>

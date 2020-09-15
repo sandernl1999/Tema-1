@@ -1,0 +1,145 @@
+#Medlem{
+    background-color: rgb(0,79,139);
+    background-size: cover;
+    padding-top: 1px;
+
+}
+
+.erna-gif{
+    position: absolute;
+    width: 520px;
+    height: 490px;
+    border: solid 3px white;
+    border-radius: 3%;
+    margin-top: 190px;
+    margin-left: 155px;
+}
+
+.setning{
+    position: absolute;
+    height: 56px;
+    width: 520px;
+    border: solid 3px white;
+    height: auto;
+    border-radius: 5%;
+    margin-top: 110px;
+    margin-left: 155px;
+    margin-bottom: 50px;
+}
+
+
+.unge:nth-child(1){background-image: url(./images/asheim2.jpg);}
+.unge:nth-child(2){background-image: url(./images/unge.jpg);}
+
+
+.unge:hover{
+    flex: 2;
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+@media (max-width: 500px){
+
+    .unge:nth-child (2){
+       display: none;;
+    }
+}
+
+.høyre:nth-child(1){background-image: url(./images/stillinger.jpg);}
+.høyre:nth-child(2){background-image: url(./images/sandra.jpg);}
+
+
+.høyre:hover{
+    flex: 2;
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+@media (max-width: 500px){
+
+    .høyre:nth-child (2){
+       display: none;;
+    }
+}
+
+.unger{
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    height: 100px;
+    width: 600px;
+    border: 10px white;  
+    padding-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 700px;
+}
+
+
+.høyrer{
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    height: 100px;
+    width: 600px;
+    border: 10px white;
+    padding-top: 380px;
+    padding-bottom: 200px;
+    padding-left: 700px;
+   
+   
+}
+
+.unge{
+    background-color: orange;
+    border: 3px solid white;
+    border-radius: 5px;
+    flex: 2;
+    text-decoration: none;
+    background-size: cover;
+    transition: 0.5s;
+    height: 270px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.høyre{
+    background-color: orange;
+    border: 3px solid white;
+    border-radius: 5px;
+    flex: 2;
+    text-decoration: none;
+    background-size: cover;
+    transition: 0.5s;
+    gap: 200px;
+    margin: 10px;
+    height: 270px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.høyrer h1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 195px;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.unger h1{
+    text-align: bottom;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    padding-top: 200px;
+    padding-left: 28px;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;    
+}
