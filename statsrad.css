@@ -2,8 +2,18 @@
     background-color: rgb(0, 79, 139);
     padding: 16px;
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-right: 20px;
+ }
+
+ #Statsråder h4{
+     position: absolute;
+     color:white;
+     font-family: monospace;
+     padding-left: 630px;
+     top: 870px;
+     font-size: 20px;
+     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
  }
 
  .regjering-logo{
@@ -28,6 +38,16 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.bilder h2{
+    position: absolute;
+    text-align: bottom;
+    padding-left: 6px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    top: 145px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 .reiser h1{
     text-align: bottom;
     font-size: 20px;
@@ -40,6 +60,16 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;    
 }
 
+.reiser h2{
+    position: absolute;
+    padding-left: 6px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    top: 145px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .spiser h1{
     text-align: bottom;
     font-size: 20px;
@@ -50,6 +80,17 @@
     padding-left: 45px;
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+}
+
+.spiser h2{
+    position: absolute;
+    text-align: bottom;
+    padding-left: 6px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    top: 145px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .bilder{

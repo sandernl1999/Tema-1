@@ -1,0 +1,149 @@
+.footer{
+    background:rgb(0, 79, 139);
+    color: #d3d3d3;
+    height: 400px;
+    position: relative;
+}
+
+.footer-bottom{
+    padding-left: 20px;
+}
+
+.footer-section{
+    color: white;
+   margin-left: 15px;
+   
+}
+
+.footer-section ul{
+    padding-top: -40px;
+}
+
+.footer .footer-content{
+    height: 350px;
+    display: flex;
+}
+
+.footer-section{
+    margin-bottom: 60px;
+}
+
+.footer .footer-content .footer-section{
+    flex: 1;
+    padding: 40px;
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2{
+    color: white;
+    padding-left: 41px;
+    font-size: 35px;
+}
+
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.4em;
+    margin-bottom: 8px;
+}
+
+.footer .footer-content .about .socials a{ 
+    border: 1px solid grey;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.footer .footer-content .about .socials a:hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a{
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.6em;
+    text-decoration: none;
+    transition: all .3s;
+    margin-left: 23px;
+}
+
+.footer-section .contact-form{
+    padding-bottom: 15px;
+}
+
+.footer .footer-content .links ul a:hover{
+    color: white;
+    margin-left: 15px;
+    transition: all .3s;
+}
+
+.footer .footer-content .contact-form .contact-input{
+    background: #272727;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1.9rem;
+    height: 50px;
+    padding: .10rem 1.1rem;
+    padding-bottom: 10px;
+    padding-top: -10px;
+    padding-right: 80px;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+
+.footer .footer-content .contact-form .contact-input :focus{
+    background: #1a1a1a;
+}
+
+.footer .footer-content .contact-form .contact.btn-big{
+    float: right;
+
+}
+
+.footer .footer-bootom{
+    background-color: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+
+}
+
+.btn-big{
+    padding: .8rem 1.3rem;
+    line-height: 1.3rem;
+    padding-top: 15px;
+    margin-right: 50px;
+}
+
+.instagram{
+    position: relative;
+   margin-left:2px;
+}
+
+.facebook{
+    position: relative;
+    margin-left: 2px;
+}
+
+.twitter{
+position: relativ;
+margin-left: 2px;
+}
+
+.youtube{
+    position: relative;
+    margin-left: 1px;
+}

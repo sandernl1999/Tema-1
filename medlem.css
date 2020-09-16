@@ -1,32 +1,17 @@
 #Medlem{
-    background-color: rgb(0,79,139);
+    background-image: url(./images/stortinget.png) ;
     background-size: cover;
     padding-top: 1px;
 
 }
 
-.erna-gif{
-    position: absolute;
-    width: 520px;
-    height: 490px;
-    border: solid 3px white;
-    border-radius: 3%;
-    margin-top: 190px;
-    margin-left: 155px;
+.background-image{
+    filter: blur(3px);
 }
 
-.setning{
-    position: absolute;
-    height: 56px;
-    width: 520px;
-    border: solid 3px white;
-    height: auto;
-    border-radius: 5%;
-    margin-top: 110px;
-    margin-left: 155px;
-    margin-bottom: 50px;
-}
 
+
+/* unger/unge: */ 
 
 .unge:nth-child(1){background-image: url(./images/asheim2.jpg);}
 .unge:nth-child(2){background-image: url(./images/unge.jpg);}
@@ -45,21 +30,72 @@
     }
 }
 
-.høyre:nth-child(1){background-image: url(./images/stillinger.jpg);}
-.høyre:nth-child(2){background-image: url(./images/sandra.jpg);}
+/*leker/leke */
+
+.leke:nth-child(1){background-image: url(./images/stillinger.jpg);}
+.leke:nth-child(2){background-image: url(./images/sandra.jpg);}
 
 
-.høyre:hover{
+.leke:hover{
     flex: 2;
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 1;
 }
 
 @media (max-width: 500px){
 
-    .høyre:nth-child (2){
+    .leke:nth-child (2){
        display: none;;
+    }  
+}
+
+/*mangle/mangler:*/
+
+.mangle:nth-child(1){background-image: url(./images/giphy-preview.gif);}
+.mangle:hover{
+    flex: 1;
+    transform: scale(1.1);
+    z-index 1;
+}
+
+@media (max-width: 500px){
+
+    .mangle:nth-child(1){
+        display: none;;
     }
+}
+
+/*handle/handler:*/
+
+.handle:nth-child(1){background-image: url(./images/setning.png);}
+
+
+.handle:hover{
+    flex: 1;
+    transform: scale(1.2);
+    z-index 1;
+}
+
+@media (max-width: 500px){
+
+    .handle:nth-child(1){
+        display: none;;
+    }
+}
+
+
+.unge{
+    background-color: orange !important;
+    border-radius: 5px;
+    flex: 2;
+    text-decoration: none;
+    background-size: cover;
+    transition: 0.5s;
+    height: 270px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
 }
 
 .unger{
@@ -71,65 +107,7 @@
     border: 10px white;  
     padding-top: 100px;
     margin-bottom: 100px;
-    padding-left: 700px;
-}
-
-
-.høyrer{
-    position: absolute;
-    display: flex;
-    gap: 8px;
-    height: 100px;
-    width: 600px;
-    border: 10px white;
-    padding-top: 380px;
-    padding-bottom: 200px;
-    padding-left: 700px;
-   
-   
-}
-
-.unge{
-    background-color: orange;
-    border: 3px solid white;
-    border-radius: 5px;
-    flex: 2;
-    text-decoration: none;
-    background-size: cover;
-    transition: 0.5s;
-    height: 270px;
-    width: 200px;
-    margin: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-}
-
-.høyre{
-    background-color: orange;
-    border: 3px solid white;
-    border-radius: 5px;
-    flex: 2;
-    text-decoration: none;
-    background-size: cover;
-    transition: 0.5s;
-    gap: 200px;
-    margin: 10px;
-    height: 270px;
-    width: 200px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-
-}
-
-.høyrer h1{
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    padding-top: 195px;
-    text-decoration: none;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-left: 675px;
 }
 
 .unger h1{
@@ -142,4 +120,92 @@
     padding-left: 28px;
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;    
+}
+
+
+.leke{
+    background-color: orange;
+    border-radius: 5px;
+    flex: 2;
+    text-decoration: none;
+    background-size: cover;
+    transition: 0.5s;
+    gap: 200px;
+    margin: 10px;
+    height: 270px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.leker{
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    height: 100px;
+    width: 600px;
+    border: 10px white;
+    padding-top: 380px;
+    padding-bottom: 200px;
+    padding-left: 675px;   
+}
+
+.leker h1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 195px;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.handle{
+    background-color: orange;
+    border-radius: 5px;
+    flex: 1;
+    text-decoration: none;
+    background-size: cover;
+    transition: 0.5s;
+    gap: 200px;
+    margin: 10px;
+    height: 55px;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 110px;
+    margin-bottom: 10px;
+}
+
+.handler{
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 590px;
+    padding-left: 75px;
+
+}
+
+.mangle{
+    background-color: orange;
+    border: 3px solid white);
+    border-radius: 5px;
+    flex: 1;
+    text-decoration: none;
+    background-size: cover;
+    transition: 0.5s;
+    gap: 200px;
+    margin: 10px;
+    height: 489px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.mangler{
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 500px;
+    padding-top: 160px;
+    padding-left: 165px;
 }
