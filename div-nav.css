@@ -43,7 +43,7 @@ nav{
     display: flex;
     list-style: none;
     position: relative;
-    padding-left: ;
+
 }
 
 .nav-item{
@@ -86,7 +86,7 @@ nav{
     transform: translateX(44rem);
 }
 .nav-item:nth-child(5):hover ~ .active{
-    transform: translateX(58.62rem);
+    transform: translateX(58.rem);
 }
 
     

@@ -40,12 +40,12 @@
 
 .bilder h2{
     position: absolute;
-    text-align: bottom;
     padding-left: 6px;
     font-size: 17px;
     text-decoration: none;
     color: white;
-    top: 145px;
+    top: 2px;
+    left: 10px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .reiser h1{
@@ -66,7 +66,8 @@
     font-size: 17px;
     text-decoration: none;
     color: white;
-    top: 145px;
+    top: 4px;
+    left: 10px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -89,7 +90,8 @@
     font-size: 17px;
     text-decoration: none;
     color: white;
-    top: 145px;
+    top: 2px;
+    left: 10px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 

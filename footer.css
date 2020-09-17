@@ -12,12 +12,24 @@
 .footer-section{
     color: white;
    margin-left: 15px;
-   
+     
 }
 
-.footer-section ul{
-    padding-top: -40px;
+.footer-content h2{
+width: 100%;
+margin-left: 50px;
+font-size: 35px;
+margin-bottom: -10px;
+margin-top: 22px;
+
 }
+
+.footer-content h5{
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
 
 .footer .footer-content{
     height: 350px;
@@ -33,9 +45,14 @@
     padding: 40px;
 }
 
+.footer .footer-content h1 {
+    margin-right: 100px;
+}
+
 .footer .footer-content h1,
-.footer .footer-content h2{
+.footer .footer-content h2,{
     color: white;
+    margin-bottom: 0px;
     padding-left: 41px;
     font-size: 35px;
 }
@@ -88,12 +105,12 @@
 .footer .footer-content .contact-form .contact-input{
     background: #272727;
     color: #bebdbd;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     line-height: 1.9rem;
     height: 50px;
-    padding: .10rem 1.1rem;
-    padding-bottom: 10px;
-    padding-top: -10px;
+    padding: .10rem 1.2rem;
+    padding-bottom: -120px;
+    padding-top: -70px;
     padding-right: 80px;
     border: 1px solid white;
     border-radius: 5%;
@@ -124,7 +141,8 @@
 .btn-big{
     padding: .8rem 1.3rem;
     line-height: 1.3rem;
-    padding-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-right: 50px;
 }
 
