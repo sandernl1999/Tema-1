@@ -24,16 +24,15 @@
 }
 
 
-
 /* unger/unge: */ 
 
-.unge:nth-child(1){background-image: url(./images/asheim2.jpg);}
+.unge:nth-child(1){background-image: url(./images/hage.jpg); }
 .unge:nth-child(2){background-image: url(./images/unge.jpg);}
 
 
 .unge:hover{
     flex: 2;
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 1;
 }
 
@@ -67,7 +66,7 @@
 
 .mangle:nth-child(1){background-image: url(./images/giphy-preview.gif);}
 .mangle:hover{
-    flex: 1;
+    flex: 2;
     transform: scale(1.1);
     z-index: 1;
 }
@@ -85,8 +84,8 @@
 
 
 .handle:hover{
-    flex: 1;
-    transform: scale(1.2);
+    flex: 2;
+    transform: scale(1.1);
     z-index: 1;
 }
 
@@ -122,7 +121,7 @@
     border: 10px white;  
     padding-top: 100px;
     margin-bottom: 510px;
-    padding-left: 520px;
+    margin-left: 520px;
 }
 
 .unger h1{
@@ -158,14 +157,15 @@
 
 .leker{
     position: absolute;
+    background-size: cover;
     display: flex;
     gap: 8px;
     height: 100px;
     width: 600px;
     border: 10px white;
-    padding-top: 396px;
-    padding-bottom: 267px;
-    padding-left: 520px;
+    margin-top: 396px;
+    margin-bottom: 267px;
+    margin-left: 520px;
 }
 
 .leker h1{
@@ -195,7 +195,7 @@
     margin: 10px;
     height: 55px;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 106px;
     margin-top: 110px;
     margin-bottom: 10px;
 }
@@ -203,9 +203,10 @@
 .handler{
     position: relative;
     display: flex;
+    background-size: 100%;
     height: 100px;
-    width: 590px;
-    padding-bottom: 610px;
+    width: 600px;
+    margin-bottom: 601px;
     padding-right: 670px;
 
 }

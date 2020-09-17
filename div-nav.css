@@ -86,7 +86,7 @@ nav{
     transform: translateX(44rem);
 }
 .nav-item:nth-child(5):hover ~ .active{
-    transform: translateX(58.rem);
+    transform: translateX(58.5rem);
 }
 
     
