@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-
+/*Ordene i nav-baren*/
 header nav a{
     font-family: monospace;
     color:rgb(0, 79, 139);
@@ -20,7 +20,7 @@ header{
     z-index: 2;
 
 }
-
+/*Hovedklassen*/
 .container{
     width: 100%;
     max-width: 98rem;
@@ -39,13 +39,14 @@ nav{
     margin-right: -62px;
 }
 
+/*Listen med elementer*/
 .nav-list{
     display: flex;
     list-style: none;
     position: relative;
-
 }
 
+/*De enkelte elementene inni listen*/
 .nav-item{
     padding: 1rem 0rem;
     min-width: 10rem;
@@ -73,6 +74,7 @@ nav{
     transition: transform .4s;
 }
 
+/*Hovering effekt*/
 .nav-item:nth-child(1):hover ~ .active{
     transform: translateX(-1.5rem);
 }
@@ -89,7 +91,7 @@ nav{
     transform: translateX(58.5rem);
 }
 
-    
+    /*Logo plassering*/
 .logo{
     float: left;
     width: 100px;

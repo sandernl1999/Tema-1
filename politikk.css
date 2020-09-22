@@ -6,6 +6,7 @@
     padding: 16px;  
 }
 
+/*Vår politikk*/
 #Politikk h2{
     text-align: center;
     color: white;
@@ -18,7 +19,7 @@
     margin-top
 }
 
-
+/* div class sjefen */
 .sjefen{
     height: 240px;
     display: flex;
@@ -29,6 +30,7 @@
     padding-left: 39px;
 }
 
+/* Navn på kategori/hjertesaker*/
 .sjefen h1{
     text-align: bottom;
     font-size: 25px;
@@ -44,6 +46,7 @@
    background-image: linear-gradient(transparent, transparent 40%, black);
 }
 
+/*div class banken*/
 .banken{
     height: 200px;
     display: flex;
@@ -52,6 +55,7 @@
     padding-left: 39px;
 }
 
+/*Navn på kategorier/hjertesaker*/
 .banken h1{
     text-align: bottom;
     font-size: 25px;
@@ -67,6 +71,7 @@
     background-image: linear-gradient(transparent, transparent 40%, black);
 }
 
+/*div class folket*/
 .folket{
     height: 200px;
     display: flex;
@@ -75,6 +80,7 @@
     padding-left: 39px;
 }
 
+/*Navn på kategorier/hjertesaker*/
 .folket h1{
     text-align: bottom;
     font-size: 25px;
@@ -90,6 +96,7 @@
     background-image: linear-gradient(transparent, transparent 40%, black);
 }
 
+/*Redigering av de enkelte boksene i en kolonnefor class banken*/
 .banke{
     background-color: orange;
     border: 1px solid white;
@@ -106,6 +113,7 @@
     gap: 20px;
 }
 
+/*Redigering av de enkelte boksene i en kolonnefor class sjefen*/
 .sjefe{
     background-color: orange;
     border: 1px solid white;
@@ -122,6 +130,7 @@
     margin-bottom: 10px;
 }
 
+/*Redigering av de enkelte boksene i en kolonnefor class folket*/
 .folke{
     background-color: orange;
     border: 1px solid white;
@@ -136,6 +145,7 @@
     margin-top: 10px;  
 }
 
+/*Flytte på bildene som er brukt i flexbox*/
 img{
     width: 80%;
     height: 80%;
@@ -154,7 +164,7 @@ img{
     justify-content: center;
 }
 
-
+/*Flexbox og hovering-effekt*/
 .sjefe:nth-child(1){background-image: url(./images/utvalgte.jpg);}
 .sjefe:nth-child(2){background-image: url(./images/budsjett.jpg);}
 .sjefe:nth-child(3){background-image: url(./images/bærekraft.jpg);}

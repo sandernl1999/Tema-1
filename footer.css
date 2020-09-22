@@ -33,7 +33,7 @@ margin-bottom: -10px;
 margin-top: 22px;
 
 }
-
+/*Lurer du på noe?*/
 .footer-content h5{
     font-size: 35px;
     margin-top: 25px;
@@ -59,6 +59,7 @@ margin-top: 22px;
     margin-right: 100px;
 }
 
+/*De tre overskriftene*/
 .footer .footer-content h1,
 .footer .footer-content h2,{
     color: white;
@@ -148,6 +149,7 @@ margin-top: 22px;
 
 }
 
+/*Knappen "send"*/
 .btn-big{
     padding: .8rem 1.3rem;
     line-height: 1.3rem;
@@ -156,6 +158,8 @@ margin-top: 22px;
     margin-right: 50px;
 }
 
+
+/*SoMe*/
 .instagram{
     position: relative;
    margin-left:2px;

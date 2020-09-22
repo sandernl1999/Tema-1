@@ -6,6 +6,7 @@
     padding-right: 20px;
  }
 
+ /* #Regjeringen */
  #Statsråder h4{
      position: absolute;
      color:white;
@@ -16,6 +17,7 @@
      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
  }
 
+ /*Logoen til regjeringen*/
  .regjering-logo{
      position: relative;
      width: 50px;
@@ -25,6 +27,7 @@
      border-radius: 5%;
  }
 
+ /* Redigere navnene på statsrådene i klasse bilder, kolonne 1 */
 .bilder h1{
     text-align: bottom;
     font-size: 20px;
@@ -38,6 +41,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+/*Hvilke type minister de er innefor klassen: bilder */
 .bilder h2{
     position: absolute;
     padding-left: 6px;
@@ -48,6 +52,8 @@
     left: 10px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+ /* Redigere navnene på statsrådene i klasse bilder, kolonne 2 */
 .reiser h1{
     text-align: bottom;
     font-size: 20px;
@@ -60,6 +66,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;    
 }
 
+/*Hvilke type minister de er innefor klassen: reiser */
 .reiser h2{
     position: absolute;
     padding-left: 6px;
@@ -71,6 +78,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+/* Redigere navnene på statsrådene i klasse spiser, kolonne 3 */
 .spiser h1{
     text-align: bottom;
     font-size: 20px;
@@ -83,6 +91,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
 }
 
+/*Hvilke type minister de er innefor klassen: spiser */
 .spiser h2{
     position: absolute;
     text-align: bottom;
@@ -95,6 +104,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+/* De tre hovedklassene i statsråd siden */
 .bilder{
     height: 240px;
     display: flex;
@@ -118,6 +128,7 @@
     border: 10px white;
 }
 
+/* De ulike flex-kolonnene */
 .reise{
     background-color: orange;
     border: 1px solid white;
@@ -150,7 +161,6 @@
     margin-bottom: 10px;
 }
 
-
 .spise{
     background-color: orange;
     border: 1px solid white;
@@ -167,6 +177,7 @@
 }
 
 
+/*Flexboxene med hovering-effekt*/
 .bilde:nth-child(1){background-image: url(./images/erni.jpg);}
 .bilde:nth-child(2){background-image: url(./images/Bent.jpeg);}
 .bilde:nth-child(3){background-image: url(./images/sanner.jpg);}
@@ -231,6 +242,9 @@
        display: none;;
     }
 }
+
+
+/*Konstruksjon av størrelse og utformelse av bildene som er brukt*/
 
 img{
     width: 80%;

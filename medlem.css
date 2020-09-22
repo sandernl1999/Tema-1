@@ -2,6 +2,7 @@
 
 }
 
+/*Bakgrunn stortinget*/
 .content-background{
     height: 100%;
     position: absolute;
@@ -24,7 +25,7 @@
 }
 
 
-/* unger/unge: */ 
+/* unger/unge:hoverflex */ 
 
 .unge:nth-child(1){background-image: url(./images/hage.jpg); }
 .unge:nth-child(2){background-image: url(./images/unge.jpg);}
@@ -43,7 +44,7 @@
     }
 }
 
-/*leker/leke */
+/*leker/leke:hoverflex */
 
 .leke:nth-child(1){background-image: url(./images/stillinger.jpg);}
 .leke:nth-child(2){background-image: url(./images/sandra.jpg);}
@@ -62,7 +63,7 @@
     }  
 }
 
-/*mangle/mangler:*/
+/*mangle/mangler:hoverflex*/
 
 .mangle:nth-child(1){background-image: url(./images/giphy-preview.gif);}
 .mangle:hover{
@@ -78,7 +79,7 @@
     }
 }
 
-/*handle/handler:*/
+/*handle/handler:hoverflex*/
 
 .handle:nth-child(1){background-image: url(./images/setning.png);}
 
@@ -96,7 +97,7 @@
     }
 }
 
-
+/*De to øverste kolonnene til høyre*/
 .unge{
     background-color: orange !important;
     border-radius: 5px;
@@ -139,7 +140,7 @@
     border-radius: 5px;
 }
 
-
+/*De to nederste kolonnene til høyre*/
 .leke{
     background-color: orange;
     border-radius: 5px;
@@ -184,6 +185,7 @@
     margin-bottom: 15px;
 }
 
+/*Bilde av teksten venstre oppe*/
 .handle{
     background-color: orange;
     border-radius: 5px;
@@ -211,6 +213,7 @@
 
 }
 
+/*Erna gif*/
 .mangle{
     background-color: orange;
     border: 3px solid white);

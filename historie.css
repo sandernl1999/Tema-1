@@ -4,6 +4,7 @@
     padding-top: 200px;
 }
 
+/*Tekst om høyres historie*/
 #Historie h1{
 color: rgb(236, 240, 241);
 width: 450px;
@@ -24,15 +25,17 @@ font-size: 15px;
 line-height: 40px;
 }
 
+/*Les mer om historien*/
 #Historie h2{
     position: relative;
     color: white;
     font-size: 35px;
     margin-left: 1020px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-top: 188px;
+    margin-top: 190px;
 }
 
+/*Da Willoch møtte reagan*/
 #Historie h3{
     position: relative;
     color: white;
@@ -42,6 +45,7 @@ line-height: 40px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+/*Høyres historie*/
 #Historie h4{
     color: white;
     font-size: 35px;
@@ -50,6 +54,7 @@ line-height: 40px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+/*Video av kåre Willoch*/
 #kåre-vid{
     position: absolute;
     top: 2570px;
@@ -59,6 +64,7 @@ line-height: 40px;
     border-radius: 5%;  
 }
 
+/*Video av Willoch & Reagan*/
 #reagan-vid{
     position: absolute;
     top: 2840px;
