@@ -1,3 +1,4 @@
+/*Selve side nr 2 av SPA*/
 #Statsråder{
     background-color: rgb(0, 79, 139);
     padding: 16px;
@@ -27,7 +28,7 @@
      border-radius: 5%;
  }
 
- /* Redigere navnene på statsrådene i klasse bilder, kolonne 1 */
+ /* Redigere navnene på statsrådene i klassen: "bilder", kolonne 1 */
 .bilder h1{
     text-align: bottom;
     font-size: 20px;
@@ -41,7 +42,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/*Hvilke type minister de er innefor klassen: bilder */
+/*Hvilke type minister de er innefor klassen: "bilder", kolonne 1 */
 .bilder h2{
     position: absolute;
     padding-left: 6px;
@@ -53,7 +54,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
- /* Redigere navnene på statsrådene i klasse bilder, kolonne 2 */
+ /* Redigere navnene på statsrådene i klasse: "reiser", kolonne 2 */
 .reiser h1{
     text-align: bottom;
     font-size: 20px;
@@ -66,7 +67,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;    
 }
 
-/*Hvilke type minister de er innefor klassen: reiser */
+/*Hvilke type minister de er innefor klassen: "reiser", kolonne 2 */
 .reiser h2{
     position: absolute;
     padding-left: 6px;
@@ -78,7 +79,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* Redigere navnene på statsrådene i klasse spiser, kolonne 3 */
+/* Redigere navnene på statsrådene i klassen: "spiser", kolonne 3 */
 .spiser h1{
     text-align: bottom;
     font-size: 20px;
@@ -91,7 +92,8 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
 }
 
-/*Hvilke type minister de er innefor klassen: spiser */
+
+/*Hvilke type minister de er innefor klassen: "spiser", kolonne 3 */
 .spiser h2{
     position: absolute;
     text-align: bottom;
@@ -104,7 +106,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* De tre hovedklassene i statsråd siden */
+/* De tre hovedklassene i statsråd siden, hver av de enkelte kolonnene */
 .bilder{
     height: 240px;
     display: flex;
@@ -128,7 +130,7 @@
     border: 10px white;
 }
 
-/* De ulike flex-kolonnene */
+/* De 3 ulike flex-kolonnene */
 .reise{
     background-color: orange;
     border: 1px solid white;
@@ -178,10 +180,12 @@
 
 
 /*Flexboxene med hovering-effekt*/
-.bilde:nth-child(1){background-image: url(./images/erni.jpg);}
-.bilde:nth-child(2){background-image: url(./images/Bent.jpeg);}
-.bilde:nth-child(3){background-image: url(./images/sanner.jpg);}
-.bilde:nth-child(4){background-image: url(./images/torbjørn.jpeg);}
+
+/*klasse: "bilde"*/
+.bilde:nth-child(1){background-image: url(../images/erni.jpg);}
+.bilde:nth-child(2){background-image: url(../images/Bent.jpeg);}
+.bilde:nth-child(3){background-image: url(../images/sanner.jpg);}
+.bilde:nth-child(4){background-image: url(../images/torbjørn.jpeg);}
 
 .bilde:first-child{transform-origin: left;}
 .bilde:last-child{transform-origin: right;}
@@ -199,11 +203,11 @@
     }
 }
 
-
-.reise:nth-child(1){ background-image: url(./images/monica.jpg);}
-.reise:nth-child(2){ background-image: url(./images/frank.jpg);}
-.reise:nth-child(3){ background-image: url(./images/helleleand.jpg);}
-.reise:nth-child(4){ background-image: url(./images/søreide.jpg);}
+/*Klasse: "reise"*/
+.reise:nth-child(1){ background-image: url(../images/monica.jpg);}
+.reise:nth-child(2){ background-image: url(../images/frank.jpg);}
+.reise:nth-child(3){ background-image: url(../images/helleleand.jpg);}
+.reise:nth-child(4){ background-image: url(../images/søreide.jpg);}
 
 .reise:first-child{transform-origin: left;}
 .reise:last-child{transform-origin: right;}
@@ -221,11 +225,11 @@
     }
 }
 
-
-.spise:nth-child(1){ background-image: url(./images/nikolai.jpg) ;}
-.spise:nth-child(2){ background-image: url(./images/odd.jpg);}
-.spise:nth-child(3){ background-image: url(./images/tina.jpg);}
-.spise:nth-child(4){ background-image: url(./images/asheim.jpg);}
+/*Klasse: "spise"*/
+.spise:nth-child(1){ background-image: url(../images/nikolai.jpg) ;}
+.spise:nth-child(2){ background-image: url(../images/odd.jpg);}
+.spise:nth-child(3){ background-image: url(../images/tina.jpg);}
+.spise:nth-child(4){ background-image: url(../images/asheim.jpg);}
 
 .spise:first-child{transform-origin: left;}
 .spise:last-child{transform-origin: right;}
@@ -244,7 +248,7 @@
 }
 
 
-/*Konstruksjon av størrelse og utformelse av bildene som er brukt*/
+/*Valg av tørrelse og utformelse av bildene som er brukt*/
 
 img{
     width: 80%;

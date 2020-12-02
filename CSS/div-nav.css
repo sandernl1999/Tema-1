@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-/*Ordene i nav-baren*/
+/*Header, plassering og farge*/
 header nav a{
     font-family: monospace;
     color:rgb(0, 79, 139);
@@ -11,20 +11,6 @@ header nav a{
     margin: 0;
     padding: 0;
     padding-right: 173px;
-
-}
-
-header{
-    background-color:white;
-    position: fixed;
-    z-index: 2;
-
-}
-/*Hovedklassen*/
-.container{
-    width: 100%;
-    max-width: 98rem;
-    margin: 0 auto;
 }
 
 nav{
@@ -35,8 +21,25 @@ nav{
     justify-content: space-between;
 }
 
-.logo{
-    margin-right: -62px;
+header{
+    background-color:white;
+    position: fixed;
+    z-index: 2;
+
+}
+/*li = De trykkbare navnene i nav*/
+.container .li{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Bredden på nav-bar*/
+@media screen and (max-width: 870px) {
+    .container nav{
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
 
 /*Listen med elementer*/
@@ -65,30 +68,32 @@ nav{
     font-weight: 700;
 }
 
+/*Den bevegelige streken under navnene som flytter på seg når man navigerer */
 .active{
     height: 2px;
     width: 4rem;
+    margin-left: -1.2rem;
     background-color: rgb(0, 79, 139);
     position: absolute;
     bottom: 0rem;
     transition: transform .4s;
 }
 
-/*Hovering effekt*/
+/*Hovering effekten over side navnene*/
 .nav-item:nth-child(1):hover ~ .active{
-    transform: translateX(-1.5rem);
+    transform: translateX( 0rem);
 }
 .nav-item:nth-child(2):hover ~ .active{
-    transform: translateX(13rem);
+    transform: translateX(14.4rem);
 }
 .nav-item:nth-child(3):hover ~ .active{
-    transform: translateX(29rem);
+    transform: translateX(30.3rem);
 }
 .nav-item:nth-child(4):hover ~ .active{
-    transform: translateX(44rem);
+    transform: translateX(45.5rem);
 }
 .nav-item:nth-child(5):hover ~ .active{
-    transform: translateX(58.5rem);
+    transform: translateX(60rem);
 }
 
     /*Logo plassering*/
@@ -105,3 +110,6 @@ main section{
     height: 100vh;
 }
 
+.logo{
+    margin-right: -62px;
+}

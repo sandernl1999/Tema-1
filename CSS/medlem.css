@@ -1,18 +1,15 @@
-#Medlem{
-
-}
-
-/*Bakgrunn stortinget*/
+/*Bakgrunn av stortinget*/
 .content-background{
     height: 100%;
     position: absolute;
     left: 0;
     right: 0;
-    background-image: url(./images/stortinget.png);
+    background-image: url(../images/stortinget.png);
     background-size: cover;
     filter: blur(2px);
 }
 
+/*De seks forskjellige boksene*/
 .content-itself{
     height: 100%;
     width: 100%;
@@ -25,10 +22,11 @@
 }
 
 
-/* unger/unge:hoverflex */ 
 
-.unge:nth-child(1){background-image: url(./images/hage.jpg); }
-.unge:nth-child(2){background-image: url(./images/unge.jpg);}
+/* Boksene oppe til høyre */ 
+
+.unge:nth-child(1){background-image: url(../images/hage.jpg); }
+.unge:nth-child(2){background-image: url(../images/unge.jpg);}
 
 
 .unge:hover{
@@ -44,60 +42,6 @@
     }
 }
 
-/*leker/leke:hoverflex */
-
-.leke:nth-child(1){background-image: url(./images/stillinger.jpg);}
-.leke:nth-child(2){background-image: url(./images/sandra.jpg);}
-
-
-.leke:hover{
-    flex: 2;
-    transform: scale(1.1);
-    z-index: 1;
-}
-
-@media (max-width: 500px){
-
-    .leke:nth-child (2){
-       display: none;;
-    }  
-}
-
-/*mangle/mangler:hoverflex*/
-
-.mangle:nth-child(1){background-image: url(./images/giphy-preview.gif);}
-.mangle:hover{
-    flex: 2;
-    transform: scale(1.1);
-    z-index: 1;
-}
-
-@media (max-width: 500px){
-
-    .mangle:nth-child(1){
-        display: none;;
-    }
-}
-
-/*handle/handler:hoverflex*/
-
-.handle:nth-child(1){background-image: url(./images/setning.png);}
-
-
-.handle:hover{
-    flex: 2;
-    transform: scale(1.1);
-    z-index: 1;
-}
-
-@media (max-width: 500px){
-
-    .handle:nth-child(1){
-        display: none;;
-    }
-}
-
-/*De to øverste kolonnene til høyre*/
 .unge{
     background-color: orange !important;
     border-radius: 5px;
@@ -140,7 +84,25 @@
     border-radius: 5px;
 }
 
-/*De to nederste kolonnene til høyre*/
+/*Boksene nede til høyre*/
+
+.leke:nth-child(1){background-image: url(../images/stillinger.jpg);}
+.leke:nth-child(2){background-image: url(../images/sandra.jpg);}
+
+
+.leke:hover{
+    flex: 2;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+@media (max-width: 500px){
+
+    .leke:nth-child (2){
+       display: none;;
+    }  
+}
+
 .leke{
     background-color: orange;
     border-radius: 5px;
@@ -185,7 +147,40 @@
     margin-bottom: 15px;
 }
 
-/*Bilde av teksten venstre oppe*/
+/*Gifen av Erna nede til venstre*/
+
+.mangle:nth-child(1){background-image: url(../images/giphy-preview.gif);}
+.mangle:hover{
+    flex: 2;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+@media (max-width: 500px){
+
+    .mangle:nth-child(1){
+        display: none;;
+    }
+}
+
+/*Bilde av teksten oppe til venstre*/
+
+.handle:nth-child(1){background-image: url(../images/setning.png);}
+
+
+.handle:hover{
+    flex: 2;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+@media (max-width: 500px){
+
+    .handle:nth-child(1){
+        display: none;;
+    }
+}
+
 .handle{
     background-color: orange;
     border-radius: 5px;

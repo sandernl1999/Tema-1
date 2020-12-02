@@ -1,5 +1,6 @@
+/*Side nr 4*/
 #Historie{
-    background-image: url(./images/kåreass.jpg);
+    background-image: url(../images/kåreass.jpg);
     background-size: cover;
     padding-top: 200px;
 }
@@ -25,27 +26,31 @@ font-size: 15px;
 line-height: 40px;
 }
 
-/*Les mer om historien*/
+/*Les mer om historien teksten*/
 #Historie h2{
     position: relative;
+    display: flex;
+    width: 20rem;
+    font-size: 26px;
     color: white;
-    font-size: 35px;
-    margin-left: 1020px;
+    display: flex;
+    top: -2.7rem;
+    margin-left: 64rem ;
+    border-radius: 7%;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-top: 190px;
 }
 
-/*Da Willoch møtte reagan*/
+/*Da Willoch møtte reagan teksten*/
 #Historie h3{
     position: relative;
     color: white;
-    font-size: 32px;
-    margin-left: 1000px;
-    margin-top: 230px;
+    font-size: 26px;
+    top: 7.1rem;
+    margin-left: 62.5rem;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/*Høyres historie*/
+/*Høyres historie, overskrift*/
 #Historie h4{
     color: white;
     font-size: 35px;
@@ -54,23 +59,26 @@ line-height: 40px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/*Video av kåre Willoch*/
+/*Video av kåre Willoch og Gro*/
 #kåre-vid{
-    position: absolute;
-    top: 2570px;
-    margin-left: 970px;
+    position: relative;
+    top: 1.5rem;
+    left: 60rem;
     border: solid 2px white;
     height: auto;
-    border-radius: 5%;  
+    text-decoration: none;
+    border-radius: 5%; 
+    width: 22rem; 
 }
 
 /*Video av Willoch & Reagan*/
 #reagan-vid{
     position: absolute;
-    top: 2840px;
-    margin-left: 970px;
+    top: 178rem;
+    left: 60rem;
     border: solid 2px white;
     height: auto;
     border-radius: 5%;
+    width: 22rem;
 }
 

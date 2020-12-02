@@ -1,3 +1,4 @@
+/*Side nr 3 av SPA*/
 #Politikk{
     background-color: rgb(0, 79, 139);
     background-size: cover;
@@ -6,7 +7,7 @@
     padding: 16px;  
 }
 
-/*Vår politikk*/
+/*Vår politikk (overskrift)*/
 #Politikk h2{
     text-align: center;
     color: white;
@@ -16,10 +17,9 @@
     margin-top: 0;
     font-family: monospace;
     font-size: 30px;
-    margin-top
 }
 
-/* div class sjefen */
+/* Kolonne nr 1 */
 .sjefen{
     height: 240px;
     display: flex;
@@ -30,7 +30,7 @@
     padding-left: 39px;
 }
 
-/* Navn på kategori/hjertesaker*/
+/* Teksten på kategoriene, kolonne 1*/
 .sjefen h1{
     text-align: bottom;
     font-size: 25px;
@@ -46,74 +46,7 @@
    background-image: linear-gradient(transparent, transparent 40%, black);
 }
 
-/*div class banken*/
-.banken{
-    height: 200px;
-    display: flex;
-    gap: 8px;
-    border: 10px white; 
-    padding-left: 39px;
-}
-
-/*Navn på kategorier/hjertesaker*/
-.banken h1{
-    text-align: bottom;
-    font-size: 25px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 15px;
-    padding-top: 111px;
-    padding-left: 45px;
-    border-radius: 2%;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    background-image: linear-gradient(transparent, transparent 40%, black);
-}
-
-/*div class folket*/
-.folket{
-    height: 200px;
-    display: flex;
-    gap: 8px;
-    border: 10px white; 
-    padding-left: 39px;
-}
-
-/*Navn på kategorier/hjertesaker*/
-.folket h1{
-    text-align: bottom;
-    font-size: 25px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 15px;
-    padding-top: 111px;
-    padding-left: 45px;
-    border-radius: 2%;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    background-image: linear-gradient(transparent, transparent 40%, black);
-}
-
-/*Redigering av de enkelte boksene i en kolonnefor class banken*/
-.banke{
-    background-color: orange;
-    border: 1px solid white;
-    border-radius: 5px;
-    flex: 2;
-    background-size: cover;
-    transition: 0.5s;
-    margin-right: 100px;
-    margin-left: 60px;
-    height: 180px;
-    width: 120px;
-    margin-top: -13px;
-    margin-bottom: 10px;
-    gap: 20px;
-}
-
-/*Redigering av de enkelte boksene i en kolonnefor class sjefen*/
+/*Redigering av de enkelte boksene i kolonne 1*/
 .sjefe{
     background-color: orange;
     border: 1px solid white;
@@ -130,7 +63,75 @@
     margin-bottom: 10px;
 }
 
-/*Redigering av de enkelte boksene i en kolonnefor class folket*/
+/*Kolonne nr 2*/
+.banken{
+    height: 200px;
+    display: flex;
+    gap: 8px;
+    border: 10px white; 
+    padding-left: 39px;
+}
+
+/*Teksten på kategorier, kolonne 2*/
+.banken h1{
+    text-align: bottom;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    padding-top: 111px;
+    padding-left: 45px;
+    border-radius: 2%;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: linear-gradient(transparent, transparent 40%, black);
+}
+
+
+/*Redigering av de enkelte boksene i kolonne 2*/
+.banke{
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 5px;
+    flex: 2;
+    background-size: cover;
+    transition: 0.5s;
+    margin-right: 100px;
+    margin-left: 60px;
+    height: 180px;
+    width: 120px;
+    margin-top: -13px;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+/*Kolonne nr 3*/
+.folket{
+    height: 200px;
+    display: flex;
+    gap: 8px;
+    border: 10px white; 
+    padding-left: 39px;
+}
+
+/*Teksten på kategorier, kolonne 3*/
+.folket h1{
+    text-align: bottom;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    padding-top: 111px;
+    padding-left: 45px;
+    border-radius: 2%;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: linear-gradient(transparent, transparent 40%, black);
+}
+
+/*Redigering av de enkelte boksene i kolonne 3*/
 .folke{
     background-color: orange;
     border: 1px solid white;
@@ -145,7 +146,7 @@
     margin-top: 10px;  
 }
 
-/*Flytte på bildene som er brukt i flexbox*/
+/*Flytte på bildene som er brukt i flexboxene*/
 img{
     width: 80%;
     height: 80%;
@@ -165,9 +166,11 @@ img{
 }
 
 /*Flexbox og hovering-effekt*/
-.sjefe:nth-child(1){background-image: url(./images/utvalgte.jpg);}
-.sjefe:nth-child(2){background-image: url(./images/budsjett.jpg);}
-.sjefe:nth-child(3){background-image: url(./images/bærekraft.jpg);}
+
+/*Kolonne 1*/
+.sjefe:nth-child(1){background-image: url(../images/utvalgte.jpg);}
+.sjefe:nth-child(2){background-image: url(../images/budsjett.jpg);}
+.sjefe:nth-child(3){background-image: url(../images/bærekraft.jpg);}
 
 .sjefe:first-child{transform-origin: left;}
 .sjefe:last-child{transform-origin: right;}
@@ -185,10 +188,10 @@ img{
     }
 }
 
-
-.banke:nth-child(1){background-image: url(./images/bank.jpg);}
-.banke:nth-child(2){background-image: url(./images/kultur.jpg);}
-.banke:nth-child(3){background-image: url(./images/utdanning.jpg);}
+/*kolonne 2*/
+.banke:nth-child(1){background-image: url(../images/bank.jpg);}
+.banke:nth-child(2){background-image: url(../images/kultur.jpg);}
+.banke:nth-child(3){background-image: url(../images/utdanning.jpg);}
 
 .banke:first-child{transform-origin: left;}
 .banke:last-child{transform-origin: right;}
@@ -206,10 +209,10 @@ img{
     }
 }
 
-
-.folke:nth-child(1){background-image: url(./images/helse.jpg);}
-.folke:nth-child(2){background-image: url(./images/samferdsel.jpg);}
-.folke:nth-child(3){background-image: url(./images/bønder.jpg);}
+/*kolonne 3*/
+.folke:nth-child(1){background-image: url(../images/helse.jpg);}
+.folke:nth-child(2){background-image: url(../images/samferdsel.jpg);}
+.folke:nth-child(3){background-image: url(../images/bønder.jpg);}
 
 .folke:first-child{transform-origin: left;}
 .folke:last-child{transform-origin: right;}

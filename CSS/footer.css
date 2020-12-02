@@ -1,3 +1,5 @@
+
+/*Footer, str og farge og plasseringer*/
 .footer{
     background:rgb(0, 79, 139);
     color: #d3d3d3;
@@ -5,26 +7,47 @@
     position: relative;
 }
 
+.footer .footer-content{
+    height: 350px;
+    display: flex;
+}
+
 .footer-bottom{
     padding-left: 20px;
 }
 
+.footer .footer-bootom{
+    background-color: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+
+
+/*De tre ulike inndelingen i footer*/
 .footer-section{
     color: white;
    margin-left: 15px;    
 }
 
+/*Siden man blir videresendt til fra "Lurer du på noe?" inntastingen i footer*/
 .henvendelse{
     background-color: rgb(0, 79, 139);
     color: white;
     text-align: center;
     padding-top: 170px;
 }
-
+/*Teksten på den videresendte siden*/
 .henvendelse h4{
     font-size: 20px;
 }
 
+/*Snarveier*/
 .footer-content h2{
 width: 100%;
 margin-left: 50px;
@@ -40,12 +63,12 @@ margin-top: 22px;
     margin-bottom: 10px;
 }
 
-
-.footer .footer-content{
-    height: 350px;
-    display: flex;
+/*Kontakt*/
+.footer .footer-content h1 {
+    margin-right: 100px;
 }
 
+/*Linkene under "snarveier*/
 .footer-section{
     margin-bottom: 60px;
 }
@@ -55,44 +78,23 @@ margin-top: 22px;
     padding: 40px;
 }
 
-.footer .footer-content h1 {
-    margin-right: 100px;
-}
-
-/*De tre overskriftene*/
+/*De tre overskriftene i footer*/
 .footer .footer-content h1,
-.footer .footer-content h2,{
+.footer .footer-content h2{
     color: white;
     margin-bottom: 0px;
     padding-left: 41px;
     font-size: 35px;
 }
 
+/*e-post of tlf-nummer*/
 .footer .footer-content .about .contact span{
     display: block;
     font-size: 1.4em;
     margin-bottom: 8px;
 }
 
-.footer .footer-content .about .socials a{ 
-    border: 1px solid grey;
-    width: 45px;
-    height: 41px;
-    padding-top: 5px;
-    margin-right: 5px;
-    text-align: center;
-    display: inline-block;
-    font-size: 1.3em;
-    border-radius: 5px;
-    transition: all .3s;
-}
-
-.footer .footer-content .about .socials a:hover{
-    border: 1px solid white;
-    color: white;
-    transition: all .3s;
-}
-
+/*Snarvei linkene, med hovering*/
 .footer .footer-content .links ul a{
     display: block;
     margin-bottom: 10px;
@@ -113,6 +115,7 @@ margin-top: 22px;
     transition: all .3s;
 }
 
+/*Kontaktskjemaet helt til høyre i footer*/
 .footer .footer-content .contact-form .contact-input{
     background: #272727;
     color: #bebdbd;
@@ -135,20 +138,6 @@ margin-top: 22px;
     float: right;
 
 }
-
-.footer .footer-bootom{
-    background-color: #343a40;
-    color: #686868;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    padding-top: 20px;
-
-}
-
 /*Knappen "send"*/
 .btn-big{
     padding: .8rem 1.3rem;
@@ -157,7 +146,6 @@ margin-top: 22px;
     padding-bottom: 8px;
     margin-right: 50px;
 }
-
 
 /*SoMe*/
 .instagram{
@@ -178,4 +166,24 @@ margin-left: 2px;
 .youtube{
     position: relative;
     margin-left: 1px;
+}
+
+/*Sosiale medier*/
+.footer .footer-content .about .socials a{ 
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+/*hover effekt på SoMe*/
+.footer .footer-content .about .socials a:hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
 }
