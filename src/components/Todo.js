@@ -10,7 +10,7 @@ function Todo({todos, completeTodo, removeTodo, updateTodo }) {
         value: ''
     });
 
-/**/
+
     const submitUpdate = value => {
         updateTodo(edit.id, value)
         setEdit({
@@ -20,13 +20,18 @@ function Todo({todos, completeTodo, removeTodo, updateTodo }) {
     }
 
     if(edit.id) {
-        return <TodoSkjema edit={edit} onSubmit={submitUpdate} />;
-    }
+        return <TodoSkjema edit={edit} tabIndex="0" onSubmit={submitUpdate} />;
+    }               
 
-  /*Gjør at de fullførte tittel-kolonnene bytter farge når det trykkes på den, togler */
+const Button = (props) =>{
+    const onClick = () => { 
+        console.log("clicked");
+    };
+  
+     /*Pakker inn samhandlingen mellom kolonner og valg i et div*/
     return todos.map((todo, index) => (
-     <div className={todo.isComplete ? 'todo-row complete' : 
-    'todo-row'} key={index}>
+    <button onClick={onClick} {...props} className={todo.isComplete ? 'todo-row complete': 
+    'todo-row'} tabIndex="0" key={index}>
 
    <div key={todo.id} onClick={() => completeTodo(todo.id)}>
       {todo.text}
@@ -36,21 +41,24 @@ function Todo({todos, completeTodo, removeTodo, updateTodo }) {
       /*Man må huske å importere fra react-icons. 
       onClick legges til for at ikonet skal reagere når det trykkes på*/}
     
-      <div className="icons">
-          <RiCloseCircleLine
+        
+        <div className="icons">
+        <RiCloseCircleLine 
           onClick={() => removeTodo(todo.id)}
           className='delete-icon' tabIndex="0"
           />
-          
+
+        
           <TiEdit
-          onClick={() => setEdit({ id: todo.id, value: todo.text })}
+          onClick={() => setEdit({ id: todo.id, value: todo.text })} 
           className='edit-icon' tabIndex="0"
           />   
-
      </div>
-     </div>
+     </button>
     
     ));
 }
+}
+  ;
 
 export default Todo
